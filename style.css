@@ -1,0 +1,68 @@
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(92, 8, 74);
+  letter-spacing: 2px;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    letter-spacing: 2px; 
+  }
+
+body {
+    background-color: #f7daf6;
+}
+#score {
+    font-size: 25px;
+    float: left;
+    margin-left: 100px;
+}
+#time {
+    font-size: 25px;
+    float: right;
+    margin-right: 100px;
+}
+#sketch_name {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+#label, #confidence {
+    font-size: 20px;
+}
+#show_sketch {
+    float: right;
+    margin-right: 60px;
+    letter-spacing: 2px;
+}
+h1 {
+    margin-left: 160px;
+}
